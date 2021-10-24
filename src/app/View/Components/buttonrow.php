@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class cardHeader extends Component
+class buttonrow extends Component
 {
     /**
      * Create a new component instance.
@@ -23,6 +23,6 @@ class cardHeader extends Component
      */
     public function render()
     {
-        return view('components.card-header');
+        return view('components.buttonrow');
     }
 }

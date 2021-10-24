@@ -21,9 +21,9 @@
     </style>
 </head>
 
-<body class="antialiased">
+<body class="antialiased bg-gray-100 dark:bg-gray-900">
     <div
-        class="relative flex justify-center min-h-screen py-4 bg-gray-100 items-top dark:bg-gray-900 sm:items-center sm:pt-0">
+        class="relative flex justify-center min-h-screen py-4 items-top sm:items-center sm:pt-0">
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             @yield('content')
         </div>

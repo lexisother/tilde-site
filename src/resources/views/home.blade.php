@@ -18,6 +18,17 @@
             Welcome to my little site!
         </div>
     </div>
+    @buttonrow
+        @button(['url' => url('about')])
+        About Me
+        @endbutton
+        @button(['url' => url('projects')])
+        Projects
+        @endbutton
+        @button(['url' => url('blog')])
+        Blog
+        @endbutton
+    @endbuttonrow
     {{-- TODO: Find content to put here --}}
     {{-- <div class="grid grid-cols-1 md:grid-cols-2">
         @carditem(['title' => 'Alyxia Sother'])

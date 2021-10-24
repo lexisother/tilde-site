@@ -25,5 +25,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::aliasComponent('components.card-item', 'carditem');
+        Blade::aliasComponent('components.button', 'button');
+        Blade::aliasComponent('components.buttonrow', 'buttonrow');
     }
 }
