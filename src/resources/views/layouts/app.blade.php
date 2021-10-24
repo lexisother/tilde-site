@@ -12,7 +12,7 @@
 
     <!-- Styles -->
 
-    <link rel="stylesheet" type="text/css" href="{{ mix('/css/app.css') }}" media="all">
+    <link rel="stylesheet" type="text/css" href="./css/app.css" media="all">
 
     <style>
         body {
