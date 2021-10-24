@@ -1,5 +1,9 @@
 @import "./vendor/normalise.css";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .header {
     color: blue;
 }

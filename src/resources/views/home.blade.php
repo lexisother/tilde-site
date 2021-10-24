@@ -5,6 +5,11 @@
 @endsection
 
 @section('content')
-<h1 class="header">test</h1>
-<br/><h2>I'm Alyx</h2>
+<div class="mt-8 overflow-hidden bg-white rounded-lg shadow font dark:bg-gray-800">
+    <div class="grid grid-cols-1 md:grid-cols-2">
+        @carditem(['title' => 'Alyxia Sother'])
+        Welcome to my little site!
+        @endcarditem
+    </div>
+</div>
 @endsection
