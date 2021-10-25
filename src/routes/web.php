@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('/')->group(function () {
     // Route::get('/', "HomeContoller@show")->name('home');
     Route::get('/', [HomeController::class, 'show'])->name('home');
+
+    Route::get('/projects', [ProjectController::class, 'show'])->name('projects');
 });
 
 // Route::get('/', function () {
